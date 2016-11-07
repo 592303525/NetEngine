@@ -1,14 +1,9 @@
-﻿using EnvDTE;
-using Microsoft.VisualStudio.TextTemplating;
-using System;
-using System.Collections.Generic;
-using System.IO;
+﻿using System.IO;
 using System.Linq;
-using System.Text;
 
 namespace NetEngine.T4
 {
-public abstract class Template: TextTransformation
+    public abstract class Template: TextTransformation
 {
     private bool initialized;
     public override void Initialize()
